@@ -1,4 +1,5 @@
 # etl_postgres_to_s3
+![A screenshot of a project interface](etl_postgres_s3.jpg)
 # *Overview*
 Project repo to demonstrate automate ETL process with Apache Airflow orchestration. The process start from extracting data from PostgreSQL database, transforming the data using Python with pandas data manipulation, finally load into AWS S3.
 # *Prerequisites*
@@ -42,7 +43,7 @@ Automate ETL from postgresql to AWS S3:
    dataLoading(transformed_df, S3_CONN_ID, bucket_name="airflow-csv-upload")
    ```
 7. Close connection 
-  ```python3
-  cursor.close()
-  conn.close()
+   ```python3
+   cursor.close()
+   conn.close()
   ```
