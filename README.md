@@ -45,4 +45,4 @@ Automate ETL from postgresql to AWS S3:
 7. Close connection 
    ```python3
    cursor.close()
-   conn.close()``
+   conn.close() ```
